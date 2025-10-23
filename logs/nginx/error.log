@@ -1,0 +1,27 @@
+2025/10/23 04:46:16 [notice] 8#8: using the "epoll" event method
+2025/10/23 04:46:16 [notice] 8#8: nginx/1.29.2
+2025/10/23 04:46:16 [notice] 8#8: built by gcc 14.2.0 (Debian 14.2.0-19) 
+2025/10/23 04:46:16 [notice] 8#8: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2025/10/23 04:46:16 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1024:1048576
+2025/10/23 04:46:16 [notice] 8#8: start worker processes
+2025/10/23 04:46:16 [notice] 8#8: start worker process 9
+2025/10/23 04:46:16 [notice] 8#8: start worker process 10
+2025/10/23 04:46:16 [notice] 8#8: start worker process 11
+2025/10/23 04:46:16 [notice] 8#8: start worker process 12
+2025/10/23 04:46:16 [notice] 8#8: start worker process 13
+2025/10/23 04:46:16 [notice] 8#8: start worker process 14
+2025/10/23 04:46:16 [notice] 8#8: start worker process 15
+2025/10/23 04:46:16 [notice] 8#8: start worker process 16
+2025/10/23 04:46:16 [notice] 8#8: start worker process 17
+2025/10/23 04:46:16 [notice] 8#8: start worker process 18
+2025/10/23 04:46:16 [notice] 8#8: start worker process 19
+2025/10/23 04:46:16 [notice] 8#8: start worker process 20
+2025/10/23 04:46:20 [error] 12#12: *5 open() "/var/www/html/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/10/23 04:46:20 [error] 13#13: *6 open() "/var/www/html/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/10/23 04:46:20 [error] 13#13: *6 open() "/var/www/html/wp-content/themes/twentytwentyfour/assets/images/windows.webp" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/assets/images/windows.webp HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/10/23 04:46:21 [error] 13#13: *6 open() "/var/www/html/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/10/23 04:46:21 [error] 12#12: *5 open() "/var/www/html/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/10/23 04:46:21 [error] 13#13: *6 open() "/var/www/html/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/10/23 04:47:01 [error] 11#11: *10 open() "/var/www/html/wp-content/themes/twentytwentyfour/screenshot.png" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentyfour/screenshot.png?ver=1.1 HTTP/1.1", host: "localhost", referrer: "http://localhost/wp-admin/update-core.php"
+2025/10/23 04:47:01 [error] 11#11: *10 open() "/var/www/html/wp-content/themes/twentytwentythree/screenshot.png" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentythree/screenshot.png?ver=1.4 HTTP/1.1", host: "localhost", referrer: "http://localhost/wp-admin/update-core.php"
+2025/10/23 04:47:01 [error] 14#14: *17 open() "/var/www/html/wp-content/themes/twentytwentytwo/screenshot.png" failed (2: No such file or directory), client: 172.19.0.1, server: ${hostname}, request: "GET /wp-content/themes/twentytwentytwo/screenshot.png?ver=1.7 HTTP/1.1", host: "localhost", referrer: "http://localhost/wp-admin/update-core.php"
